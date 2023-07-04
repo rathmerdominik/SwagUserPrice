@@ -32,7 +32,7 @@ jobs:
 
     call-analyse-workflow:
         name: Analyse code for SwagUserPrice
-        uses: shopware5/docker-images-testing/.github/workflows/php-code-analysis.yml@main
+        uses: rathmerdominik/docker-images-testing/.github/workflows/php-code-analysis.yml@sw-27107/phpstan-fix
         with:
             plugin-name: SwagUserPrice
 
